@@ -14,7 +14,7 @@ int main(void)
 	char letra;
 
 	for (letra = 'a'; letra <= 'z'; letra++)
-		if (letra != q && letra != e)
+		if (letra != 'q' && letra != 'e')
 			putchar (letra); /*Almacena una letra entre a - z, para cada ciclo*/
 	putchar('\n');
 	return (0);
