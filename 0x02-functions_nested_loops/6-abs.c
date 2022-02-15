@@ -4,14 +4,20 @@
 /**
  * _abs - Function that computes the absolute value of an integer.
  *
- * @numero: inpput that a number int
+ * @n: inpput that a number int
  *
  * Return: 0
  *
  */
 
-int _abs(int numero)
+int _abs(int n)
 {
-	_putchar(abs(numero));
-
+	if (n >= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		return(n * -1);
+	}
 }
