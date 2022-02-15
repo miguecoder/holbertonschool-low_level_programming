@@ -15,7 +15,7 @@ int main(void)
 		{
 			_putchar(palabra[i]);
 		}
-	_putchar('/n');
+		_putchar('/n');
 
 	return (0);
 }
