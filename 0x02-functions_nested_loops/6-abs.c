@@ -12,6 +12,6 @@
 
 int _abs(int numero)
 {
-	_putchar('fabs(numero)');
+	_putchar('fabs(numero)' + '0');
 
 }
