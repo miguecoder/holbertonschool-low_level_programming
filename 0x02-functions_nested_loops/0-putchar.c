@@ -11,7 +11,7 @@ int main(void)
 	char palabra[] = "_putchar";
 	int i = 0;
 
-	for (; i < 7 ; i++)
+	for (; i < 8 ; i++)
 	{
 		_putchar(palabra[i]);
 	}
