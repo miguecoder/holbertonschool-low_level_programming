@@ -13,9 +13,9 @@ int main(void)
 
 	for (;i < 7; i++)
 		{
-			_putchar("palabra[]");
+			_putchar(palabra[i]);
 		}
-	_putchar("/n");
+	_putchar('/n');
 
 	return (0);
 }
