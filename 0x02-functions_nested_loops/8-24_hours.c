@@ -14,7 +14,7 @@ void jack_bauer(void)
 	/*Inicia en 00:00, termina en 23:59*/
 	while (hours < 24)
 	{
-		minutes = 0 /*Se inicializa en 0 para cada ciclo*/
+		minutes = 0; /*Se inicializa en 0 para cada ciclo*/
 		while (minutes < 60)
 		{
 			_putchar((hours / 10) + '0');/*Obtengo el primer digito de los minutos,*/
@@ -26,6 +26,7 @@ void jack_bauer(void)
 			/*ejm: 35/10 = 3,5 --> sin cifras decimales = 3*/
 			_putchar((minutes % 10 + '0'));/*Obtengo el ultimo número de los minutos*/
 			/*con el residuo:35%10 = 5 --> los minutos quedan en 35*/
+			_putchar('\n');
 			minutes++; /*Aumento de los minuto de 1 a 1 hasta 59*/
 		}
 		hours++;/*Aumento de horas de 1 a 1 hasta 23*/
