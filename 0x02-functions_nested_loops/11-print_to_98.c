@@ -34,5 +34,5 @@ void print_to_98(int n)
 	{
 		_putchar('98');
 	}
-
+	_putchar('\n');
 }
