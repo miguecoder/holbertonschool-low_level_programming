@@ -11,7 +11,7 @@
 
 void print_to_98(int n)
 {
-	int i, j;
+	int i, j, x;
 
 
 	if (n > 98)
@@ -32,7 +32,8 @@ void print_to_98(int n)
 		}
 	} else
 	{
-		_putchar((98) + '0');
+		x = 98;
+		_putchar((x) + '0');
 	}
 	_putchar('\n');
 }
