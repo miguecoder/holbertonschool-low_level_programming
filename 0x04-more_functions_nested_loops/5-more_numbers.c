@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * print_most_numbers - function that prints the numbers, from 0 to 9. no 2, 4
+ */
+
+void print_most_numbers(void)
+{
+	int i;
+
+	for (i = '0' ; i <= '10' ; i++)
+	{
+		for (i = '0' ; i <= '14')
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
+	}
+	_putchar('\n');
+}
