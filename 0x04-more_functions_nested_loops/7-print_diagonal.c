@@ -10,18 +10,27 @@
 
 void print_diagonal(int n)
 {
-	char c;
+	int i, j;/*Variables para recorrer filas y espacios en cada fila*/
 
-	for (c = 0 ; c <= n ; c++)
+	if (n > 0)
 	{
-		if (c == n)
+		for (i = 0 ; i <= n ; i++)/*Recorremos n filas*/
 		{
-			_putchar('\\');
-		}
-		else
-		{
-			_putchar(' ');
+			for (j = 0 ; j <= i ; j++)/*Recorremos las j posiciones en cada fila*/
+			{
+				if (j == i)/*Este sería el final de cada linea*/
+				{
+					_putchar('\\');
+					_putchar('\n');
+				}
+				else/*Estos serían los espacios antes del final de la línea*/
+				{
+					_putchar(' ');
+				}
+			}
 		}
 	}
-	_putchar('\n');
-}
+	else
+	{
+		_putchar('\n');
+	}
