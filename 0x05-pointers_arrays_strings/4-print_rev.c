@@ -13,6 +13,7 @@ void print_rev(char *s)
 		j++;
 	}
 	i = j;
+	s--;
 	for (; i > 0 ;)
 	{
 		i--;
