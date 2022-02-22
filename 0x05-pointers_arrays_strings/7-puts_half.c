@@ -10,9 +10,9 @@ void puts_half(char *str)
 	int i = 0, n, lenght = 0;
 	char *y = str;
 
-	while (*y != '\0')
+	while (*str != '\0')
 	{
-		y++;
+		str++;
 		lenght++;
 	}
 	n = lenght / 2;
