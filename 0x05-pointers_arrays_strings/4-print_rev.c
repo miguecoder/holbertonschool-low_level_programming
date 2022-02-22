@@ -13,11 +13,11 @@ void print_rev(char *s)
 	{
 		j++;
 	}
-	for (; i < j ;)
+	for (; i < j - 1 ;)
 	{
-		temp = s[j];
-		s[j] = s[i];
-		s[i] = temp;
+		temp = s[i];
+		s[i] = s[j];
+		s[j] = temp;
 		i++;
 		j--;
 	}
