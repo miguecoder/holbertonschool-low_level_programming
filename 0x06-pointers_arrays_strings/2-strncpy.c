@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _strncpy - Function that copy n char of a string
- * @dest:
- * @src:
- * @n:
- * Return:
+ * @dest: is a void array
+ * @src: is a string
+ * @n: Maximum number of characters to be copied from source
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
