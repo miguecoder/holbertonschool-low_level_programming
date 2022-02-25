@@ -10,7 +10,10 @@ char *cap_string(char *n)
 
 	while (n[i] != '\0')
 	{
-		for (!n[i] >= 97 ; !n[i] <= 122 ; i++)
+		while (!(n[i] >= 97 && n[i] <= 122))
+		{
+			i++;
+		}
 		if (n[i - 1] == ' ' ||
 		n[i - 1] == '\t' ||
 		n[i - 1] == '\n' ||
