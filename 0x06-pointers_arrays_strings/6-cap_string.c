@@ -8,7 +8,7 @@ char *cap_string(char *n)
 {
 	int i = 0;
 
-	while (n[i] != '\0')
+	while (n[i])
 	{
 		while (!(n[i] >= 97 && n[i] <= 122))
 		{
