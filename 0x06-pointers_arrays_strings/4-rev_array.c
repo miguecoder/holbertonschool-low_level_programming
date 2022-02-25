@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * reverse_array - function that compares two strings.
+ * reverse_array - function that reverse a string.
  * @a: array of integers to reverses
  * @n: number of elements of array
- * Return:
  */
 void reverse_array(int *a, int n)
 {
