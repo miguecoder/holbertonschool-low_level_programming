@@ -4,7 +4,7 @@
  * @s: is a pointer to block memory to fill
  * @b: char with fill the clock memory.
  * @n: This is the number of bytes to be set to the value.
- * Return:
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
