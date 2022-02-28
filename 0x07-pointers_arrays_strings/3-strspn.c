@@ -8,14 +8,14 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0, j = 0;
+	int j = 0;
 	unsigned int matchs = 0;
 
 	while (*s)
 	{
 		for (; accept[j] ; j++)
 		{
-			if (s[i] == accept[j])
+			if (*s == accept[j])
 			{
 				matchs++;
 				break;
@@ -26,7 +26,6 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 		s++;
-		i++;
 	}
 	return (matchs);
 }
