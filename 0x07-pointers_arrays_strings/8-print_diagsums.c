@@ -5,7 +5,7 @@
  * diagonals of a square matrix of integers.
  * @a: array
  * @size: number of columns
- * Return: putchar of a chessboard.
+ * Return: print two sum
  */
 void print_diagsums(int *a, int size)
 {
