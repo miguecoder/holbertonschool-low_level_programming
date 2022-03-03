@@ -11,7 +11,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (actual_prime(n, n - 1));
+	return (yes_or_not_prime(n, n - 1));
 }
 
 /**
@@ -48,5 +48,5 @@ int yes_or_not_prime(int n, int i)
 	 * o i = #, reduciendo -1 en cada llamado de la función
 	 * para encontrar i
 	 */
-	return (actual_prime(n, i - 1));
+	return (yes_or_not_prime(n, i - 1));
 }
