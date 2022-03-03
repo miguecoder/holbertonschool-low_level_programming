@@ -45,8 +45,9 @@ int yes_or_not_prime(int n, int i)
 	/**
 	 * La funcion de la recursividad en este problema es
 	 * cambiar el valor de i desde i = n - 1 hasta i = 1
-	 * o i = #, reduciendo -1 en cada llamado de la función
-	 * para encontrar i
+	 * o i = #, reduciendo -1 en cada llamado de la función,
+	 * esto con el fin de que alguna de las 2 condiciones
+	 * se cumpla
 	 */
 	return (yes_or_not_prime(n, i - 1));
 }
