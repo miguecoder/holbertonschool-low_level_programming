@@ -8,11 +8,12 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0, j = 0, sum = 0;
+	int i = 1, j = 0, sum = 0;
 
 	/**
 	 * Ciclo for para moverme entre las "filas" que
-	 * componen al vector argv
+	 * componen al vector argv, empieza en 1, ya que 
+	 * argv[0] =  nombre del programa
 	 */
 	for (; i < argc ;)
 	{
