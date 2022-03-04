@@ -8,13 +8,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0, j = 0, sum = 0;
+	int i = 0, j, sum = 0;
 
 	/**
 	 * Ciclo for para moverme entre las "filas" que
 	 * componen al vector argv
 	 */
-	for (; i < arc ;)
+	for (; i < argc ;)
 	{
 		/**
 		 * Ciclo for para recorrer el contenido de cada "fila"
