@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 			 * está entre 0 y 9, en caso de que no, print
 			 * Error y return 1.
 			 */
-			if (argv[i][j] < 48 || argv[i][j] > 57)
+			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
 				printf("Error\n");
 				return (1);
