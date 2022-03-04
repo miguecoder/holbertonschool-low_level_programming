@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0, j, sum = 0;
+	int i = 0, j = 0, sum = 0;
 
 	/**
 	 * Ciclo for para moverme entre las "filas" que
