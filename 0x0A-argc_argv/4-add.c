@@ -8,20 +8,20 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 1, j = 0, sum = 0;
+	int i, j, sum = 0;
 
 	/**
 	 * Ciclo for para moverme entre las "filas" que
 	 * componen al vector argv, empieza en 1, ya que
 	 * argv[0] =  nombre del programa
 	 */
-	for (; i < argc ;)
+	for (i = 1; i < argc ; i++)
 	{
 		/**
 		 * Ciclo for para recorrer el contenido de cada "fila"
 		 * en el vector argv
 		 */
-		for (; argv[i][j] ;)
+		for (j = 0; argv[i][j] ; j++)
 		{
 			/**
 			 * Verificar si cada valor dentro de argv[i][j]
