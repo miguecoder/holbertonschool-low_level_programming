@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 	/**
 	 * Ciclo for para moverme entre las "filas" que
-	 * componen al vector argv, empieza en 1, ya que 
+	 * componen al vector argv, empieza en 1, ya que
 	 * argv[0] =  nombre del programa
 	 */
 	for (; i < argc ;)
