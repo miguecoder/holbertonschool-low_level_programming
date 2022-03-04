@@ -13,11 +13,10 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		/**
-		 * atoi function - convert string to integer
-		 *
+		 * atoi function - convert string to integer.
 		 */
 		mndo = atoi(argv[1]);
-		mdor = atoi(srgv[2]);
+		mdor = atoi(argv[2]);
 		mult = mndo * mdor;
 
 		printf("%d\n", mult);
