@@ -8,18 +8,12 @@
  */
 int main(int argc, char *argv[])
 {
-	int mndo, mdor, mult;
-
 	if (argc == 3)
 	{
 		/**
 		 * atoi function - convert string to integer.
 		 */
-		mndo = atoi(argv[1]);
-		mdor = atoi(argv[2]);
-		mult = mndo * mdor;
-
-		printf("%d\n", mult);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
 	else
 	{
