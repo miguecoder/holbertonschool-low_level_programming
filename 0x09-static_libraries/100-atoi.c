@@ -1,5 +1,8 @@
 #include "main.h"
 int _atoi(char *s)
 {
-	return (0);
+	while(*s != '0')
+	{
+		return (0);
+	}
 }
