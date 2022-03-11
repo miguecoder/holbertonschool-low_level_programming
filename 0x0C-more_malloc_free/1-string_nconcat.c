@@ -9,10 +9,11 @@
  * in memory which contains the contents of s1, followed by
  * first n bytes of s2, and null terminated
  **/
-char *string_nconcat(char *s1, char *s2, unisigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *str_C;
-	int i, j;
+	int i;
+	unsigned int j;
 
 	i = j = 0;
 	while (s1[i] != '\0')
