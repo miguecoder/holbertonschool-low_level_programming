@@ -1,7 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE dog.h
 /**
- * struct dog
+ * struct dog - Define a new type struct dog
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
