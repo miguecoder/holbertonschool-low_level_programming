@@ -1,5 +1,5 @@
 #ifndef DOG
-#define DOG
+#define DOG dog.h
 /**
  * struct dog
  * @name: dog name
