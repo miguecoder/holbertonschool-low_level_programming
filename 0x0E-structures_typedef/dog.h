@@ -1,5 +1,5 @@
-#ifndef DOG
-#define DOG dog.h
+#ifndef HEADER_FILE
+#define HEADER_FILE dog.h
 /**
  * struct dog
  * @name: dog name
@@ -13,5 +13,5 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
 #endif
