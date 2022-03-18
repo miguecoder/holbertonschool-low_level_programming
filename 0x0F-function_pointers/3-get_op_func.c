@@ -16,6 +16,7 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
+
 	int x = 0;
 
 	while (ops[x].op != NULL)
@@ -24,7 +25,7 @@ int (*get_op_func(char *s))(int, int)
 		{
 			return (ops[x].f);
 		}
-		i++;
+		x++;
 	}
 	return (NULL);
 }
