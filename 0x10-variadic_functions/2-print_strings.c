@@ -14,10 +14,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 	char *s;
 
-	va_start(ap, n);
+	va_start(arg, n);
 	for (i = 0; i < n; i++)
 	{
-		s = va_arg(ap, char *);
+		s = va_arg(arg, char *);
 		if (s != NULL)
 			printf("%s", s);
 		else
@@ -26,5 +26,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 	printf("\n");
-	va_end(ap);
+	va_end(arg);
 }
