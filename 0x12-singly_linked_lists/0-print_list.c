@@ -3,12 +3,16 @@
  * print_list - function that prints all the elements of a list_t list
  * @h: pointer to a struct lists
  * Return: the number of codes.
- * If str is NULL, print [0] (nil)
  */
 
 size_t print_list(const list_t *h)
 {
 	int i;
+
+	if (h == NULL)
+	{
+		return (0);
+	}
 
 	for (i = 0, h != NULL, i++)
 	{
