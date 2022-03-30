@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * _strlen - Funtions that return the length of a string
  * @string: string gived.
@@ -6,11 +6,11 @@
  */
 int _strlen(const char *string)
 {
-	int i = 0;
+	int i;
 
-	while (string != 0)
+	for (i = 0; string[i]; i++)
 	{
-		i++;
+		;
 	}
 	return (i);
 }
