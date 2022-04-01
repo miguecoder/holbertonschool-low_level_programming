@@ -15,9 +15,9 @@ int pop_listint(listint_t **head)
 		return (0);
 	}
 
-	temp = *head;
-	data = (*head)->n;
-	*head = (*head)->next;
-	free(temp);
+	temp = *head; /*contenido de head a puntero temporal*/
+	data = (*head)->n; /*get data n of head*/
+	*head = (*head)->next; /*do new head to the next node*/
+	free(temp); /*free old head*/
 	return (data);
 }
