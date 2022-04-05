@@ -19,6 +19,7 @@ unsigned int binary_to_uint(const char *b)
 		nconv *= 2;
 		if (*b == '1')
 			nconv++;
+		b++;
 	}
 	return (nconv);
 }
