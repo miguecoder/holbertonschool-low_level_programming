@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	int op1, op2, rd1, wr2, cl1, cl2;
 	char buffer[1024];
 
-	if (agrc != 3)
+	if (argc != 3)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
 
 	op1 = open(argv[1], O_RDONLY);
