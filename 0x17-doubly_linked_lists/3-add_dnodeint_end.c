@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * add_dnodeint - function that adds a new node at the beginning
+ * add_dnodeint_end - function that adds a new node at the beginning
  * of a dlistint_t list.
  * @head:pointer to a struct list
  * @n: new integer add to a new node
