@@ -3,7 +3,8 @@
 /**
  * insert_dnodeint_at_index - function that adds a new node at the beginning
  * of a dlistint_t list.
- * @head:pointer to a struct list
+ * @h:pointer to a struct list
+ * @idx: index of new node.
  * @n: new integer add to a new node
  * Return: The number of nodes
  */
