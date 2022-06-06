@@ -1,6 +1,6 @@
 #include "hash_table"
 /**
- * hash_table_createe - Function that creates a hash table.
+ * hash_table_create - Function that creates a hash table.
  * @size: the size of the array
  * Return: a pointer to the newly created hash table
  */
