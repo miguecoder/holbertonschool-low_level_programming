@@ -5,10 +5,10 @@
  * to add or update the key/value to
  * Return: nothing, only delate the has table.
  */
-void hash_table_delete(const hash_table_t *ht)
+void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int index;
-	hash_node_t nodo_temp;
+	hash_node_t *nodo_temp;
 
 	for (index = 0; index < ht->size; index++)
 	{
