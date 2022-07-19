@@ -1,0 +1,10 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:%.c=%.o)# = main.o school.o
+NAME = school
+all: $(OBJ)
+	$(CC) $(SRC) -o $(NAME)
+%.o: %.c
+	$(CC) -c $< -o $@
+#reference1: https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_6.html#:~:text=A%20variable%20is%20a%20name,%2C%20variables%20are%20called%20macros.)
+#reference2: https://stackoverflow.com/questions/3220277/what-do-the-makefile-symbols-and-mean#:~:text=The%20%24%40%20and%20%24%3C%20are%20called,to%20create%20the%20output%20file.
