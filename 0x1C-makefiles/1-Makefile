@@ -1,5 +1,5 @@
 CC = gcc
-SRC = main.c schoo.c
-all:
+SRC = main.c school.c
+all: $(SRC)
 	$(CC) $(SRC) -o school
 #reference: https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_6.html#:~:text=A%20variable%20is%20a%20name,%2C%20variables%20are%20called%20macros.)
