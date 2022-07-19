@@ -1,59 +1,50 @@
-<div class="project row">
-  <div class="col-xs-12 col-md-10 col-lg-8 contains-images">
 
-      <h1 class="gap">0x1C. C - Makefiles</h1>
+
+<h1 class="gap">0x1C. C - Makefiles</h1>
 
   <div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[]}" data-react-cache-id="tags/Tags-0"></div>
 
-  <ul class="list-group metadata" id="project-metadata">
+<ul class="list-group metadata" id="project-metadata">
 
-    <li class="list-group-item">
-      <i aria-hidden="true" class="fa fa-user  fa-fw"></i>
-      By Julien Barbier
-    </li>
+<li class="list-group-item">
+<i aria-hidden="true" class="fa fa-user  fa-fw"></i>
+By Julien Barbier
+</li>
 
-    <li class="list-group-item">
-      <i aria-hidden="true" class="fa fa-cogs  fa-fw"></i>
-      Weight: 1
-    </li>
-
-
+<li class="list-group-item">
+<i aria-hidden="true" class="fa fa-cogs  fa-fw"></i>
+Weight: 1
+</li>
 
 
 
-      <li class="list-group-item">
-        <i aria-hidden="true" class="fa fa-calendar  fa-fw"></i>
-            Ongoing project - started <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:false,&quot;value&quot;:&quot;2022-07-18T00:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>, must end by <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:false,&quot;value&quot;:&quot;2022-07-19T00:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>
-          - you're done with <span id="student_task_done_percentage">0</span>% of tasks.
-      </li>
-
-      <li class="list-group-item">
-        <i aria-hidden="true" class="fa fa-check  fa-fw"></i>
-        Checker was released at <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:true,&quot;value&quot;:&quot;2022-07-18T12:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>
-      </li>
 
 
-      <li class="list-group-item">
-        <i aria-hidden="true" class="fa fa-check-square  fa-fw"></i>
-        An auto review will be launched at the deadline
-      </li>
+<li class="list-group-item">
+<i aria-hidden="true" class="fa fa-calendar  fa-fw"></i>
+	Ongoing project - started <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:false,&quot;value&quot;:&quot;2022-07-18T00:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>, must end by <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:false,&quot;value&quot;:&quot;2022-07-19T00:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>
+	- you're done with <span id="student_task_done_percentage">0</span>% of tasks.
+</li>
+
+<li class="list-group-item">
+<i aria-hidden="true" class="fa fa-check  fa-fw"></i>
+Checker was released at <div data-react-class="common/DateTime" data-react-props="{&quot;showDate&quot;:true,&quot;showTime&quot;:true,&quot;value&quot;:&quot;2022-07-18T12:00:00.000-05:00&quot;}" data-react-cache-id="common/DateTime-0" class="d-inline-block"></div>
+</li>
+
+
+<li class="list-group-item">
+<i aria-hidden="true" class="fa fa-check-square  fa-fw"></i>
+An auto review will be launched at the deadline
+</li>
 
 </ul>
 
 
 
 
-    <div id="project_id" style="display: none" data-project-id="273"></div>
 
-
-
-      
-
-      
-
-      <div class="panel panel-default" id="project-description">
-  <div class="panel-body">
-    <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/273/giphy-2.gif" alt="" style="" /></p>
+<div class="panel-body">
+<p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/273/giphy-2.gif" alt="" style="" /></p>
 
 <p><br /></p>
 
@@ -108,31 +99,27 @@
       
 
         
-          <h2 class="gap">Tasks</h2>
-
-    <div data-role="task1488" data-position="1" id="task-num-0">
-      <div class="panel panel-default task-card " id="task-1488">
-  <span id="user_id" data-id="4520"></span>
+<h2 class="gap">Tasks</h2>
 
   <div class="panel-heading panel-heading-actions">
     <h3 class="panel-title">
       0. make -f 0-Makefile
     </h3>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
+<div>
+	<span class="label label-info">
+		mandatory
+	</span>
+</div>
   </div>
 
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
 
-    <!-- Progress vs Score -->
+<!-- Progress vs Score -->
 
-    <!-- Task Body -->
-    <p>Create your first Makefile.</p>
+<!-- Task Body -->
+<p>Create your first Makefile.</p>
 
 <p>Requirements:</p>
 
@@ -182,164 +169,9 @@ julien@ubuntu:~/0x1C. Makefiles$
   <div class="list-group">
     <!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-low_level_programming</code></li>
-            <li>Directory: <code>0x1C-makefiles</code></li>
-            <li>File: <code>0-Makefile</code></li>
-        </ul>
-      </div>
-
-    <!-- Self-paced manual review -->
   </div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
-<div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1488">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
-
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1488" data-project-id="273" data-toggle="modal" data-target="#task-1488-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1488-users-done-modal" data-task-id="1488" data-project-id="273">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "0. make -f 0-Makefile"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
-</div>
-
-
-      <button class="btn btn-default btn-sm" data-task-id="1488" data-toggle="modal" data-target="#task-test-correction-1488-correction-modal" id="task-num-0-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1488-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "0. make -f 0-Makefile"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
-
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1488">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
-
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
-
-
-                    </center>
-                </div>
-                <div class="result"></div>
-
-                <div class="help">
-    <button data-task-id="1488">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1488">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
-</div>
-
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
-</div>
-
-
-        <div class="fs-4">
-        </div>
-      </div>
-
-
-  </div>
-</div>
-
-    </div>
-    <div data-role="task1489" data-position="2" id="task-num-1">
-      <div class="panel panel-default task-card " id="task-1489">
+ 
   <span id="user_id" data-id="4520"></span>
 
   <div class="panel-heading panel-heading-actions">
@@ -347,20 +179,20 @@ julien@ubuntu:~/0x1C. Makefiles$
       1. make -f 1-Makefile
     </h3>
 
-    <div>
-        <span class="label label-info">
-          mandatory
-        </span>
-    </div>
+<div>
+	<span class="label label-info">
+		mandatory
+	</span>
+</div>
   </div>
 
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
 
-    <!-- Progress vs Score -->
+<!-- Progress vs Score -->
 
-    <!-- Task Body -->
-    <p>Requirements:</p>
+<!-- Task Body -->
+<p>Requirements:</p>
 
 <ul>
 <li>name of the executable: <code>school</code></li>
@@ -389,164 +221,10 @@ julien@ubuntu:~/0x1C. Makefiles$
   <div class="list-group">
     <!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-low_level_programming</code></li>
-            <li>Directory: <code>0x1C-makefiles</code></li>
-            <li>File: <code>1-Makefile</code></li>
-        </ul>
-      </div>
-
-    <!-- Self-paced manual review -->
+    
   </div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
-<div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1489">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
-
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1489" data-project-id="273" data-toggle="modal" data-target="#task-1489-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1489-users-done-modal" data-task-id="1489" data-project-id="273">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "1. make -f 1-Makefile"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
-</div>
-
-
-      <button class="btn btn-default btn-sm" data-task-id="1489" data-toggle="modal" data-target="#task-test-correction-1489-correction-modal" id="task-num-1-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1489-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "1. make -f 1-Makefile"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
-
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1489">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
-
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
-
-
-                    </center>
-                </div>
-                <div class="result"></div>
-
-                <div class="help">
-    <button data-task-id="1489">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1489">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
-</div>
-
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
-</div>
-
-
-        <div class="fs-4">
-        </div>
-      </div>
-
-
-  </div>
-</div>
-
-    </div>
-    <div data-role="task1490" data-position="3" id="task-num-2">
-      <div class="panel panel-default task-card " id="task-1490">
+ 
   <span id="user_id" data-id="4520"></span>
 
   <div class="panel-heading panel-heading-actions">
@@ -564,10 +242,10 @@ julien@ubuntu:~/0x1C. Makefiles$
   <div class="panel-body">
     <span id="user_id" data-id="4520"></span>
 
-    <!-- Progress vs Score -->
+<!-- Progress vs Score -->
 
-    <!-- Task Body -->
-    <p>Create your first useful Makefile.</p>
+<!-- Task Body -->
+<p>Create your first useful Makefile.</p>
 
 <p>Requirements:</p>
 
@@ -608,164 +286,10 @@ julien@ubuntu:~/0x1C. Makefiles$
   <div class="list-group">
     <!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-low_level_programming</code></li>
-            <li>Directory: <code>0x1C-makefiles</code></li>
-            <li>File: <code>2-Makefile</code></li>
-        </ul>
-      </div>
-
-    <!-- Self-paced manual review -->
+    
   </div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
-<div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1490">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
-
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1490" data-project-id="273" data-toggle="modal" data-target="#task-1490-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1490-users-done-modal" data-task-id="1490" data-project-id="273">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "2. make -f 2-Makefile"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
-</div>
-
-
-      <button class="btn btn-default btn-sm" data-task-id="1490" data-toggle="modal" data-target="#task-test-correction-1490-correction-modal" id="task-num-2-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1490-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "2. make -f 2-Makefile"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
-
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1490">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
-
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
-
-
-                    </center>
-                </div>
-                <div class="result"></div>
-
-                <div class="help">
-    <button data-task-id="1490">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1490">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
-</div>
-
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
-</div>
-
-
-        <div class="fs-4">
-        </div>
-      </div>
-
-
-  </div>
-</div>
-
-    </div>
-    <div data-role="task1491" data-position="4" id="task-num-3">
-      <div class="panel panel-default task-card " id="task-1491">
+ 
   <span id="user_id" data-id="4520"></span>
 
   <div class="panel-heading panel-heading-actions">
@@ -866,164 +390,10 @@ julien@ubuntu:~/0x1C. Makefiles$
   <div class="list-group">
     <!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-low_level_programming</code></li>
-            <li>Directory: <code>0x1C-makefiles</code></li>
-            <li>File: <code>3-Makefile</code></li>
-        </ul>
-      </div>
-
-    <!-- Self-paced manual review -->
+    
   </div>
 
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
-<div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1491">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
-
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1491" data-project-id="273" data-toggle="modal" data-target="#task-1491-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1491-users-done-modal" data-task-id="1491" data-project-id="273">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "3. make -f 3-Makefile"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
-</div>
-
-
-      <button class="btn btn-default btn-sm" data-task-id="1491" data-toggle="modal" data-target="#task-test-correction-1491-correction-modal" id="task-num-3-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1491-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "3. make -f 3-Makefile"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
-
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1491">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
-
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
-
-
-                    </center>
-                </div>
-                <div class="result"></div>
-
-                <div class="help">
-    <button data-task-id="1491">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1491">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
-</div>
-
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
-</div>
-
-
-        <div class="fs-4">
-        </div>
-      </div>
-
-
-  </div>
-</div>
-
-    </div>
-    <div data-role="task1492" data-position="5" id="task-num-4">
-      <div class="panel panel-default task-card " id="task-1492">
+ 
   <span id="user_id" data-id="4520"></span>
 
   <div class="panel-heading panel-heading-actions">
@@ -1084,182 +454,11 @@ julien@ubuntu:~/0x1C. Makefiles$
   <div class="list-group">
     <!-- Task URLs -->
 
-    <!-- Github information -->
-      <div class="list-group-item">
-        <p><strong>Repo:</strong></p>
-        <ul>
-          <li>GitHub repository: <code>holbertonschool-low_level_programming</code></li>
-            <li>Directory: <code>0x1C-makefiles</code></li>
-            <li>File: <code>4-Makefile</code></li>
-        </ul>
-      </div>
-
-    <!-- Self-paced manual review -->
-  </div>
-
-  <!-- Panel footer - Controls -->
-  <div class="panel-footer">
-      <div class="align-items-center d-flex justify-content-between">
-        
-<div>
-    <button class="student_task_done btn btn-default btn-sm no" data-task-id="1492">
-      <span class="no"><i aria-hidden="true" class="fa fa-square-o "></i></span>
-      <span class="yes"><i aria-hidden="true" class="fa fa-check-square-o "></i></span>
-      <span class="pending"><i aria-hidden="true" class="fa fa-spinner  fa-pulse"></i></span>
-      Done<span class="no pending">?</span><span class="yes">!</span>
-    </button>
-
-    <button class="users_done_for_task btn btn-default btn-sm" data-task-id="1492" data-project-id="273" data-toggle="modal" data-target="#task-1492-users-done-modal">
-      Help
-    </button>
-    <div class="modal fade users-done-modal" id="task-1492-users-done-modal" data-task-id="1492" data-project-id="273">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Students who are done with "4. A complete Makefile"</h4>
-        </div>
-        <div class="modal-body">
-            <div class="list-group">
-            </div>
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-            <div class="error"></div>
-        </div>
-        </div>
-    </div>
-</div>
-
-
-      <button class="btn btn-default btn-sm" data-task-id="1492" data-toggle="modal" data-target="#task-test-correction-1492-correction-modal" id="task-num-4-check-code-btn">
-          Check your code
-      </button>
-      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-1492-correction-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Correction of "4. A complete Makefile"</h4>
-            </div>
-            <div class="modal-body">
-                <div class="actions">
-                    <center>
-                        <div class="alert alert-info hidden"></div>
-
-                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="1492">Start a new test</button>
-                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
-
-                        <div class="spinner" style="display: none;">
-                            <div class="bounce1"></div>
-                            <div class="bounce2"></div>
-                            <div class="bounce3"></div>
-                        </div>
-                        <div class="error"></div>
-                        <div class="info"></div>
-
-
-                    </center>
-                </div>
-                <div class="result"></div>
-
-                <div class="help">
-    <button data-task-id="1492">
-        <i aria-hidden="true" class="fa fa-info-circle "></i>
-    </button>
-    <div class="help-container" data-task-id="1492">
-        <div class="check-line">
-            <div class="check-inline requirement success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Requirement success
-            </div>
-            <div class="check-inline requirement fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Requirement fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline code success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Code success
-            </div>
-            <div class="check-inline code fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Code fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline efficiency success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Efficiency success
-            </div>
-            <div class="check-inline efficiency fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Efficiency fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline answer success">
-                  <i aria-hidden="true" class="fa fa-check-circle "></i>
-                Text answer success
-            </div>
-            <div class="check-inline answer fail">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Text answer fail
-            </div>
-        </div>
-        <div class="check-line">
-            <div class="check-inline requirement fail offline">
-                  <i aria-hidden="true" class="fa fa-times-circle "></i>
-                Skipped - Previous check failed
-            </div>
-        </div>
-    </div>
-</div>
-
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div>
-
-
-
-    <button class="btn btn-default btn-sm" data-toggle="modal" data-target="#container-specs-modal"><i aria-hidden="true" class="fa fa-terminal "></i><span>Get a sandbox</span></button>
-
-</div>
-
-
-        <div class="fs-4">
-        </div>
-      </div>
-
+    
 
   </div>
-</div>
 
-    </div>
-
-    <p class="lg-gap">
-      <a class="btn btn-primary btn-block" data-confirm="Are you sure? Make sure you focused on the mandatory tasks first" href="/projects/273/unlock_optionals">Done with the mandatory tasks? Unlock 1 advanced task now!</a>
-    </p>
-
-
-
-
-          <div class="modal fade" id="container-specs-modal"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title">Recommended Sandbox</h4></div><div class="modal-body"><div data-react-class="user_containers/ContainerSpecs" data-react-props="{&quot;containerModelName&quot;:&quot;Sandbox&quot;,&quot;containerSpecs&quot;:[{&quot;description&quot;:&quot;\u003cp\u003eBasic Ubuntu 20.04, with vim, emacs, curl, wget and all needed for Holberton Foundations\u003c/p\u003e\n&quot;,&quot;id&quot;:39,&quot;name&quot;:&quot;Ubuntu 20.04&quot;,&quot;online&quot;:true,&quot;container&quot;:{&quot;container_id&quot;:&quot;829c7d9b49384542258d6be5889b110a3ef2f62fa72a0ba541ff12ef71ed9d4a&quot;,&quot;id&quot;:20269,&quot;restart_uri&quot;:null,&quot;uri&quot;:&quot;/user_containers/20269.json&quot;,&quot;webterm_uri&quot;:&quot;/user_containers/20269/webterm&quot;,&quot;host&quot;:&quot;829c7d9b4938.dbdbff27.hbtn-cod.io&quot;,&quot;password&quot;:&quot;457100faa612f860e400&quot;,&quot;ports&quot;:{&quot;22&quot;:49405,&quot;3306&quot;:49401,&quot;4000&quot;:49400,&quot;8080&quot;:49396,&quot;3000&quot;:49402,&quot;443&quot;:49403,&quot;5000&quot;:49399,&quot;5001&quot;:49398,&quot;80&quot;:49404,&quot;8000&quot;:49397}}}],&quot;containersLimit&quot;:5,&quot;csrfToken&quot;:&quot;05_dfkqKixTK3bIZk9QjKJ5CvVFQQVppy0D5XlMWs0IXo3Gj51WLu0BX-99WYIsXSoLjflUsO3cBdIXwIq4ARg&quot;,&quot;startStatusURI&quot;:&quot;/user_containers/start_status.json&quot;,&quot;startURI&quot;:&quot;/user_containers/start.json&quot;}" data-react-cache-id="user_containers/ContainerSpecs-0"></div></div></div></div></div>
-
-  </div>
-</div>
-
-
-      </article>
-
-      <div class="copyright">Copyright © 2022 Holberton Inc, All rights reserved.</div>
-    </main>
-
-      <button class="btn btn-primary" id="search-button" data-search-active="false" data-toggle="modal" data-target="#search-modal">
+  
   <i aria-hidden="true" class="fa fa-search "></i>
   <i aria-hidden="true" class="fa fa-window-minimize "></i>
 </button>
@@ -1292,7 +491,7 @@ julien@ubuntu:~/0x1C. Makefiles$
 
 
 
-      <div class="modal fade" id="markdownGuideModal" tabindex="-1" role="dialog" aria-labelledby="markdownGuideModalLabel" aria-hidden="true">
+<div class="modal fade" id="markdownGuideModal" tabindex="-1" role="dialog" aria-labelledby="markdownGuideModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-md">
     <div class="modal-content">
         <div class="modal-header">
@@ -1349,7 +548,8 @@ julien@ubuntu:~/0x1C. Makefiles$
 ```
 var example = "hello!";
 alert(example);
-```</pre>
+```
+</pre>
         </div>
     </div>
   </div>
